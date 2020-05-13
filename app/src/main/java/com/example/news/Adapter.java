@@ -16,11 +16,9 @@ import com.example.news.Model.Articles;
 import com.squareup.picasso.Picasso;
 
 import org.ocpsoft.prettytime.PrettyTime;
-import org.ocpsoft.prettytime.format.SimpleTimeFormat;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
