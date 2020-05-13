@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+    <Button
+        android:id="@+id/backflask"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_arrow_back_black_24dp" />
+    <TextView
+        android:id="@+id/tvFields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="130dp"
+        android:textSize="20sp"
+        android:textColor="@color/orange"
+        android:layout_gravity="center"
+        android:text="Enter the following fields"
+        android:textFontWeight="1000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/orange_background"
+        android:columnCount="2"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:rowCount="2">
+
+        <EditText
+            android:id="@+id/etAuthor"
+            android:layout_width="256dp"
+            android:layout_height="41dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/orange_background"
+            android:fontFamily="@font/g_bold"
+            android:hint="Author"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey" />
+
+        <Button
+            android:id="@+id/addImage1"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@drawable/orange_background"
+            android:drawableRight="@drawable/ic_photo_camera_black_24dp"
+            android:paddingRight="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:columnCount="2"
+        android:background="@drawable/orange_background"
+        android:rowCount="2">
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="256dp"
+            android:layout_height="41dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/orange_background"
+            android:fontFamily="@font/g_bold"
+            android:hint="Title"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey" />
+
+        <Button
+            android:id="@+id/addImage2"
+            android:layout_width="54dp"
+            android:layout_height="40dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@drawable/orange_background"
+            android:drawableRight="@drawable/ic_photo_camera_black_24dp"
+            android:paddingRight="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:columnCount="2"
+        android:background="@drawable/orange_background"
+        android:rowCount="2">
+
+        <EditText
+            android:id="@+id/etText"
+            android:layout_width="256dp"
+            android:layout_height="41dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/orange_background"
+            android:fontFamily="@font/g_bold"
+            android:hint="Description"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey" />
+
+        <Button
+            android:id="@+id/addImage3"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@drawable/orange_background"
+            android:drawableRight="@drawable/ic_photo_camera_black_24dp"
+            android:paddingRight="15dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="69dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginEnd="190dp"
+        android:background="@drawable/orange_background"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center"
+        android:text="Enter"
+        android:textColor="@color/white"
+        android:textFontWeight="1000" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_margin="30dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textFontWeight="1000"/>
+    <ImageView
+        android:layout_marginTop="500dp"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/imageIv1">
+
+    </ImageView>
+</LinearLayout>

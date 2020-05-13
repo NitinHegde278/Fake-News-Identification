@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Legitly</string>
+    <string name="title">TITLE</string>
+    <string name="date">DATE</string>
+    <string name="source">SOURCE</string>
+    <string name="button">Button</string>
+    <string name="search">Search</string>
+    <string name="Description">description</string>
+    <string name="description">Description</string>
+    <string name="news">NEWS</string>
+</resources>
